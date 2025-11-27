@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashvin — Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light-theme">
+
+<header>
+    <nav class="container nav">
+        <div class="logo">Ashvin.dev</div>
+
+        <ul class="nav-links">
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#entreprise">Entreprise</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#veille">Veille</a></li>
+            <li><a href="#documents">Téléchargements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+            <button id="themeToggle">☀️</button>
+            <button id="printBtn" class="btn-small">📄 PDF</button>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section id="hero" class="hero container reveal">
+    <img src="assets/image-Ashvin.png.jpeg" alt="Photo de profil" class="profile-img">
+    <h1>👋 Bonjour, je suis <span>Ashvin Mariyathas</span></h1>
+    <p class="subtitle">Développeur en formation — BTS SIO SLAM</p>
+    <p class="hero-text">
+        Bienvenue sur mon portfolio ! Découvrez mes compétences en développement web,
+        mes projets réalisés durant ma formation et mon expérience en entreprise.
+    </p>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="container section reveal">
+    <h2>👤 À propos</h2>
+    <p class="para">
+     Étudiant à H3 Hitema en BTS SIO option SLAM , Software Engineer en alternance à la Digital Factory de Total Energies
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="container section reveal">
+    <h2>🧠 Compétences</h2>
+    <p class="skills-intro">
+        Compétences acquises au cours de mon alternance, à l'école et lors de projets personnels.
+    </p>
+
+    <div class="skills-bar-container">
+
+        <div class="skill-line">
+            <div class="skill-title">
+                <span>HTML / CSS</span>
+                <span class="level">90%</span>
+            </div>
+            <div class="progress">
+                <div style="width: 90%;" class="progress-value"></div>
+            </div>
+        </div>
+
+        <div class="skill-line">
+            <div class="skill-title">
+                <span>JavaScript</span>
+                <span class="level">70%</span>
+            </div>
+            <div class="progress">
+                <div style="width: 70%;" class="progress-value"></div>
+            </div>
+        </div>
+
+        <div class="skill-line">
+            <div class="skill-title">
+                <span>TypeScript</span>
+                <span class="level">65%</span>
+            </div>
+            <div class="progress">
+                <div style="width: 65%;" class="progress-value"></div>
+            </div>
+        </div>
+
+        <div class="skill-line">
+            <div class="skill-title">
+                <span>Angular</span>
+                <span class="level">60%</span>
+            </div>
+            <div class="progress">
+                <div style="width: 60%;" class="progress-value"></div>
+            </div>
+        </div>
+
+        <div class="skill-line">
+            <div class="skill-title">
+                <span>PHP / SQL</span>
+                <span class="level">75%</span>
+            </div>
+            <div class="progress">
+                <div style="width: 75%;" class="progress-value"></div>
+            </div>
+        </div>
+
+        <div class="skill-line">
+            <div class="skill-title">
+                <span>Git & Github</span>
+                <span class="level">80%</span>
+            </div>
+            <div class="progress">
+                <div style="width: 80%;" class="progress-value"></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ENTREPRISE -->
+<section id="entreprise" class="container section reveal">
+    <h2>🏢 Expérience professionnelle</h2>
+
+    <div class="enterprise-block">
+        <img src="assets/total.png" class="enterprise-logo">
+
+        <h3>TotalEnergies Digital Factory</h3>
+
+        <p class="enterprise-meta">
+            Créée en : <strong>2020</strong> · CEO : <strong>Patrick Pouyanné</strong> · Localisation : 
+            31 Rue des Jeûneurs, 75002 Paris
+        </p>
+
+        <iframe class="map"
+    src="https://www.google.com/maps?q=33+Rue+des+Jeûneurs,+75002+Paris&hl=fr&z=17&output=embed"
+    loading="lazy" allowfullscreen>
+        </iframe>
+
+
+
+
+        <p class="enterprise-text">
+            Depuis <strong>janvier 2025</strong>, je suis alternant en tant que 
+            <strong>Software Engineer</strong> où j'apprends Angular, TypeScript et les standards
+            professionnels de développement logiciel.
+        </p>
+    </div>
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="container section reveal">
+    <h2>📌 Projets</h2>
+
+    <!-- Formation -->
+    <h3 class="sub">🎓 Formation</h3>
+
+    <div class="grid">
+
+        <article class="project-card reveal">
+            <h3>Clone Discord (PHP)</h3>
+            <p>Système utilisateurs, messages, base SQL.</p>
+            <span class="status done">Terminé</span>
+            <a class="more-btn" href="assets/clone-discord.pdf" target="_blank">📄 En Savoir Plus</a>
+        </article>
+
+        <article class="project-card reveal">
+            <h3>Site vitrine HTML/CSS</h3>
+            <p>Site responsive structuré.</p>
+            <span class="status done">Terminé</span>
+            <a class="more-btn" href="assets/site-vitrine.pdf" target="_blank">📄 En Savoir Plus</a>
+        </article>
+
+        <article class="project-card reveal">
+            <h3>Projet E-Commerce PHP</h3>
+            <p>CRUD produits, sessions utilisateur.</p>
+            <span class="status done">Terminé</span>
+            <a class="more-btn" href="assets/ecommerce.pdf" target="_blank">📄 En Savoir Plus</a>
+        </article>
+
+        <article class="project-card reveal">
+            <h3>Java Billetterie</h3>
+            <p>Interface Swing avec gestion tickets.</p>
+            <span class="status in-progress">En cours</span>
+            <a class="more-btn" href="assets/billetterie.pdf" target="_blank">📄 En Savoir Plus</a>
+        </article>
+
+        <article class="project-card reveal">
+            <h3>Wireframe → Intégration</h3>
+            <p>Travail sur maquette puis intégration.</p>
+            <span class="status done">Terminé</span>
+            <a class="more-btn" href="assets/wireframe.pdf" target="_blank">📄 En Savoir Plus</a>
+        </article>
+
+    </div>
+
+    <!-- Entreprise -->
+    <h3 class="sub" style="margin-top:35px;">🏢 Entreprise</h3>
+
+    <div class="grid">
+        <article class="project-card reveal">
+            <h3>Application Angular Training</h3>
+            <p>Découverte composants, services, routing.</p>
+            <span class="status done">Terminé</span>
+            <a class="more-btn" href="assets/angular.pdf" target="_blank">📄 En Savoir Plus</a>
+        </article>
+
+        <article class="project-card reveal">
+            <h3>Formation JS / TypeScript</h3>
+            <p>DOM, typage, meilleures pratiques.</p>
+            <span class="status done">Terminé</span>
+            <a class="more-btn" href="assets/js-ts.pdf" target="_blank">📄 En Savoir Plus</a>
+        </article>
+    </div>
+</section>
+
+
+<!-- VEILLE -->
+<section id="veille" class="container section reveal">
+    <h2>📡 Veille Technologique</h2>
+
+    <div class="veille-card">
+        <h3>Impact IA sur le prix du Cloud — OVH</h3>
+        <p>Selon Octave Klaba, les coûts cloud pourraient augmenter de 5-10% d'ici 2026.</p>
+        <a class="more-btn" href="assets/veille.pdf" target="_blank">📄 En Savoir Plus</a>
+    </div>
+</section>
+
+
+<!-- DOCUMENTS -->
+<section id="documents" class="container section reveal">
+    <h2>📄 Téléchargements</h2>
+
+    <div class="download-box">
+        <p>Tableau de synthèse officiel — BTS SIO SLAM :</p>
+        <a class="download-btn" 
+           href="assets/Tableau_synthèse_E4 Septembre (version 1).xlsx" 
+           target="_blank">
+            📎 Télécharger tableau de synthèse
+        </a>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="container section reveal">
+    <h2>📬 Contact</h2>
+
+   <form id="contactForm" class="contact-form">
+    <label>
+        Nom
+        <input type="text" name="from_name" id="nameField" required>
+        <span id="nameError" class="field-error"></span>
+    </label>
+
+    <label>
+        Email
+        <input type="email" name="reply_to" id="emailField" required>
+        <span id="emailError" class="field-error"></span>
+    </label>
+
+    <label>
+        Message
+        <textarea name="message" id="messageField" rows="4" required></textarea>
+        <span id="messageError" class="field-error"></span>
+    </label>
+
+    <button type="submit">Envoyer</button>
+</form>
+
+<p id="messageStatus" class="success"></p>
+
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+
+</main>
+
+<footer>
+    <p>© <span id="year"></span> — Tous droits réservés. | Développé par <strong>Ashvin Mariyathas</strong>.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
