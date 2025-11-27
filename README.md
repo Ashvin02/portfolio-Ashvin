@@ -1,105 +1,106 @@
-🌍 Portfolio — Ashvin Mariyathas
+<h1 align="center">🌍 Portfolio — Ashvin Mariyathas</h1>
 
-Bienvenue sur le dépôt GitHub de mon portfolio personnel.
-Ce site a été conçu pour présenter mon parcours, mes projets, mes compétences et mon évolution en tant que développeur au cours de mon BTS SIO option SLAM et de mon alternance en Software Engineering.
+<p align="center">
+  <b>Développeur en formation — BTS SIO option SLAM</b><br>
+  Alternant Software Engineer — TotalEnergies Digital Factory
+</p>
 
-🚀 Objectifs du Portfolio
+---
 
-Présenter mon parcours professionnel et scolaire
+## 📌 Présentation
 
-Mettre en avant mes projets réalisés en formation, en entreprise et en autonomie
+Bienvenue sur mon portfolio personnel.  
+Ce site met en avant mon parcours, mes compétences, mes réalisations et mon évolution dans le domaine du développement web et logiciel au cours de ma formation en **BTS SIO SLAM** et de mon alternance.
 
-Permettre un accès direct à mes documents officiels (Tableau de synthèse, projets PDF, veille)
+---
 
-Offrir un moyen simple de me contacter via un formulaire fonctionnel
+## 🚀 Objectifs du Portfolio
 
-Avoir un site moderne, responsive, dynamique et professionnel
+- Présenter mon parcours scolaire et professionnel  
+- Mettre en valeur mes projets réalisés en formation, en entreprise et en autonomie  
+- Donner accès à mes documents officiels : **veille, tableau de synthèse, projets**  
+- Permettre un **contact direct via formulaire fonctionnel (EmailJS)**  
+- Offrir une interface **responsive, moderne, dynamique et claire**
 
-🛠️ Technologies utilisées
-Domaine	Outils / Langages
-Front-End	HTML5, CSS3 (Responsive + Dark/Light mode), JavaScript
-Animation	Intersection Observer, Transitions CSS
-Services	EmailJS API (pour envoi d’email automatique via formulaire)
-Hébergement (optionnel)	GitHub Pages / Netlify
-Documents	PDF & XLSX intégrés
-✨ Fonctionnalités principales
+---
 
-✔️ Mode clair / sombre avec sauvegarde automatique dans localStorage
-✔️ Animations au scroll (reveal effect + progress bars animées)
-✔️ Formulaire de contact fonctionnel (validation live + envoi email réel via EmailJS)
-✔️ Validation intelligente des champs (email, nom, longueur message)
-✔️ Téléchargement / affichage direct des documents (PDF / Tableau de synthèse)
-✔️ Section Entreprise avec carte Google Maps + pin géolocalisé
-✔️ Présentation des projets avec statut : En cours / Terminé
-✔️ Structure pensée pour jury BTS (E4 / E5) et recruteurs
+## 🛠️ Technologies utilisées
 
-📁 Structure du projet
+| Domaine | Technologies |
+|--------|-------------|
+| Front-End | HTML5 • CSS3 • JavaScript |
+| UI/UX | Dark/Light mode • Animations CSS • Intersection Observer |
+| Services | EmailJS API (formulaire de contact fonctionnel) |
+| Hébergement | GitHub Pages (recommandé), Netlify |
+| Documents intégrés | PDF, XLSX |
+
+---
+
+## ✨ Fonctionnalités principales
+
+✔️ Mode clair / sombre (sauvegarde automatique dans `localStorage`)  
+✔️ Animations au scroll : reveal + barres de progression  
+✔️ Formulaire de contact fonctionnel (EmailJS + validations avancées)  
+✔️ Vérification automatique du format email + message + nom  
+✔️ Téléchargement ou affichage direct des fichiers (Tableau de synthèse, PDF projets)  
+✔️ Section entreprise avec **Google Maps + pin géolocalisé**  
+✔️ Projets triés avec statut : *En cours / Terminé*  
+✔️ Pensé pour jury BTS (E4/E5) et recruteurs
+
+---
+
+## 📁 Structure du projet
+
 📦 Portfolio
- ┣ 📂 assets
- ┃ ┣ images / logos
- ┃ ┣ fichiers PDF (veille, projets, synthèse)
- ┃ ┗ photos profil
- ┣ 📄 index.html
- ┣ 🎨 style.css
- ┣ 🧠 script.js
- ┗ 📄 README.md
+┣ 📂 assets
+┃ ┣ images / logos
+┃ ┣ pdf (veille, projets, synthèse)
+┃ ┗ photos / ressources
+┣ 📄 index.html
+┣ 🎨 style.css
+┣ 🧠 script.js
+┗ 📄 README.md
 
-🧩 Pages / Sections du site
+yaml
+Copier le code
 
-Accueil
+---
 
-À propos
+## 🧩 Pages & sections du site
 
-Compétences (avec barres de progression)
+- 🏠 Accueil  
+- 👤 À propos  
+- 🧠 Compétences  
+- 🏢 Entreprise  
+- 📌 Projets  
+- 📡 Veille technologique  
+- 📄 Téléchargements  
+- 📬 Contact  
+- ⚙️ Footer (année dynamique)
 
-Entreprise
+---
 
-Projets
+## 📬 Fonctionnement du formulaire
 
-Formation
+| Fonction | Oui |
+|--------|:--:|
+| Envoi automatique d'email via API EmailJS | ✅ |
+| Validation format email | ✔️ |
+| Validation nom (min. 2 caractères) | ✔️ |
+| Validation message (min. 10 caractères) | ✔️ |
+| Message retour utilisateur | ✔️ |
 
-Entreprise
+---
 
-Veille Technologique
+## 🧪 Installation locale
 
-Téléchargements
-
-Contact (avec validation + API email)
-
-Footer automatique (année dynamique)
-
-📬 Formulaire de contact — Fonctionnement
-
-Envoi via EmailJS
-
-Validation :
-
-Email → format obligatoire
-
-Nom → min. 2 caractères
-
-Message → min. 10 caractères
-
-Affichage de messages d’erreurs en direct
-
-Retour utilisateur ("Message envoyé" / erreur)
-
-🧪 Installation locale
-
-1️⃣ Cloner le projet :
-
+```sh
 git clone https://github.com/ashvin-dev/portfolio.git
-
-
-2️⃣ Ouvrir le fichier :
-
-index.html
-
-
-3️⃣ Le site fonctionne directement dans le navigateur (pas besoin de serveur).
+cd portfolio
+Ouvrir simplement index.html dans un navigateur
+➡️ Aucun serveur requis.
 
 🌐 Déploiement
-
 Compatible avec :
 
 GitHub Pages
@@ -108,18 +109,16 @@ Netlify
 
 Vercel
 
-(Upload → prêt → lien public.)
+➡️ Déploiement immédiat (static ready).
 
 📄 Licence
-
 🔒 Tous droits réservés — Projet personnel.
-Toute reproduction ou réutilisation partielle est interdite sans autorisation.
+Toute reproduction ou utilisation sans autorisation est interdite.
 
 👤 Auteur
-
 Ashvin Mariyathas
 📍 Paris, France
 🎓 BTS SIO SLAM — H3 Hitema
 💼 Alternant Software Engineer — TotalEnergies Digital Factory
 
-📧 Contact via formulaire : (disponible sur le site)
+📧 Contact via formulaire du site
