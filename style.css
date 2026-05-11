@@ -583,3 +583,113 @@ footer{
         display:none;
     }
 }
+
+/* ===== ENTREPRISE ===== */
+
+.enterprise-content{
+    margin-top: 30px;
+}
+
+.enterprise-role-card{
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 25px;
+    border-radius: 18px;
+    margin-bottom: 30px;
+    backdrop-filter: blur(8px);
+    transition: 0.3s;
+}
+
+.enterprise-role-card:hover{
+    transform: translateY(-4px);
+}
+
+.enterprise-role-card h4,
+.enterprise-missions h4,
+.enterprise-architecture h4{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #5b6cff;
+}
+
+.enterprise-role-card p{
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+/* Missions */
+
+.missions-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.mission-card{
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.mission-card:hover{
+    transform: translateY(-6px);
+    border-color: #5b6cff;
+}
+
+.mission-card span{
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.mission-card p{
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Architecture */
+
+.enterprise-architecture{
+    margin-top: 35px;
+}
+
+.archi-flow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.archi-box{
+    background: linear-gradient(135deg,#5b6cff,#7f8cff);
+    color: white;
+    padding: 14px 22px;
+    border-radius: 14px;
+    font-weight: 600;
+    box-shadow: 0 5px 20px rgba(91,108,255,0.25);
+}
+
+.arrow{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5b6cff;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .archi-flow{
+        flex-direction: column;
+    }
+
+    .arrow{
+        transform: rotate(90deg);
+    }
+}
